@@ -1,0 +1,14 @@
+Dataset,Column,Total_Rows,Missing_Values,Missing_Percentage
+olist_order_reviews_dataset.csv,review_comment_title,99224,87656,88.34
+olist_order_reviews_dataset.csv,review_comment_message,99224,58247,58.7
+olist_orders_dataset.csv,order_approved_at,99441,160,0.16
+olist_orders_dataset.csv,order_delivered_carrier_date,99441,1783,1.79
+olist_orders_dataset.csv,order_delivered_customer_date,99441,2965,2.98
+olist_products_dataset.csv,product_category_name,32951,610,1.85
+olist_products_dataset.csv,product_name_lenght,32951,610,1.85
+olist_products_dataset.csv,product_description_lenght,32951,610,1.85
+olist_products_dataset.csv,product_photos_qty,32951,610,1.85
+olist_products_dataset.csv,product_weight_g,32951,2,0.01
+olist_products_dataset.csv,product_length_cm,32951,2,0.01
+olist_products_dataset.csv,product_height_cm,32951,2,0.01
+olist_products_dataset.csv,product_width_cm,32951,2,0.01
