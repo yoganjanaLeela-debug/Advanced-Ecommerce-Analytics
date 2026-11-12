@@ -1,0 +1,10 @@
+Dataset,Rows,Columns,Missing_Values,Duplicate_Rows,Memory_Usage_MB
+olist_customers_dataset.csv,99441,5,0,0,11.03
+olist_geolocation_dataset.csv,1000163,5,0,261831,50.12
+olist_order_items_dataset.csv,112650,7,0,0,18.37
+olist_order_payments_dataset.csv,103886,5,0,0,8.11
+olist_order_reviews_dataset.csv,99224,7,145903,0,17.84
+olist_orders_dataset.csv,99441,8,4908,0,21.95
+olist_products_dataset.csv,32951,9,2448,0,3.73
+olist_sellers_dataset.csv,3095,4,0,0,0.22
+product_category_name_translation.csv,71,2,0,0,0.0
