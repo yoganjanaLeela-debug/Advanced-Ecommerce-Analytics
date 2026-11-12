@@ -1,59 +1,55 @@
 # 📊 Advanced E-Commerce Analytics
 
-An end-to-end Brazilian E-Commerce Data Analytics project using Python, MySQL, SQL and Power BI to analyze business performance and generate actionable insights.
+An End-to-End Data Analytics Project using Python, MySQL, SQL and Power BI to analyze Brazilian E-Commerce data and generate meaningful business insights.
 
 ---
 
-## 📌 Project Overview
+## 📌 1. Project Overview
 
-This project focuses on analyzing the Brazilian E-Commerce Public Dataset by Olist to understand sales performance, customer behavior, product trends, seller performance, payment preferences and delivery operations.
+This project focuses on analyzing the Brazilian E-Commerce Public Dataset by Olist to understand business performance, customer purchasing behavior, sales trends, product performance, seller performance and delivery operations.
 
-The project follows an end-to-end data analytics workflow involving:
+The project follows an end-to-end data analytics workflow using Python for data cleaning and exploratory data analysis, MySQL for database management, SQL for business analysis and Power BI for interactive dashboard development.
 
-- Data Cleaning and Preprocessing using Python.
-- Exploratory Data Analysis (EDA).
-- Database Management using MySQL.
-- Business Analysis using SQL.
-- Data Modeling and DAX using Power BI.
-- Interactive Dashboard Development.
+The main objective is to transform raw e-commerce data into meaningful insights that support business decision-making.
 
 ---
 
-## 🎯 Project Objectives
+## 🎯 2. Project Objectives
 
-- Analyze monthly sales and revenue trends.
+- Analyze monthly order and revenue trends.
 - Identify top-performing products and categories.
 - Understand customer purchasing behavior.
-- Analyze payment method preferences.
-- Evaluate customer satisfaction through reviews.
+- Analyze customer payment preferences.
+- Evaluate customer satisfaction through review scores.
 - Measure delivery performance and delays.
 - Analyze seller performance.
 - Identify high-performing customer states and cities.
-- Develop interactive dashboards for business decision-making.
+- Examine freight costs and shipping patterns.
+- Develop interactive dashboards for business insights.
 
 ---
 
-## 📂 Dataset
+## 📂 3. Dataset Description
 
-**Dataset Name:** Brazilian E-Commerce Public Dataset by Olist.
+**Dataset:** Brazilian E-Commerce Public Dataset by Olist.
 
-The dataset contains 9 CSV files:
+The dataset contains nine CSV files:
 
-1. Customers
-2. Geolocation
-3. Order Items
-4. Order Payments
-5. Order Reviews
-6. Orders
-7. Products
-8. Sellers
-9. Product Category Translation
+1. Customers Dataset
+2. Geolocation Dataset
+3. Order Items Dataset
+4. Order Payments Dataset
+5. Order Reviews Dataset
+6. Orders Dataset
+7. Products Dataset
+8. Sellers Dataset
+9. Product Category Translation Dataset
 
-The dataset provides information about orders, customers, products, payments, sellers, reviews and delivery operations.
+The dataset provides information about customers, orders, products, payments, sellers, reviews, locations and delivery operations.
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠️ 4. Technologies Used
 
 | Technology | Purpose |
 |---|---|
@@ -64,13 +60,15 @@ The dataset provides information about orders, customers, products, payments, se
 | Seaborn | Statistical Visualization |
 | MySQL | Database Management |
 | SQL | Business Data Analysis |
-| Power BI | Interactive Dashboards |
+| Power BI | Interactive Dashboard Development |
 | DAX | KPI and Measure Development |
 | VS Code | Development Environment |
 
 ---
 
-## 🔄 Project Workflow
+## 🔄 5. Project Workflow
+
+The project was completed through the following stages:
 
 1. Dataset Inspection
 2. Dataset Summary
@@ -78,23 +76,104 @@ The dataset provides information about orders, customers, products, payments, se
 4. Duplicate Analysis
 5. Data Type Analysis
 6. Date Analysis
-7. Data Cleaning
-8. Exploratory Data Analysis
+7. Data Cleaning and Preprocessing
+8. Exploratory Data Analysis (EDA)
 9. MySQL Database Creation
 10. SQL Business Analysis
 11. Power BI Data Modeling
-12. DAX Measure Creation
+12. DAX Measure Development
 13. Interactive Dashboard Development
 
 ---
 
-# 📊 Power BI Dashboard Screenshots
+# 🐍 6. Python – Exploratory Data Analysis
 
-The project includes six interactive Power BI dashboard pages developed using an Emerald Green and White theme.
+Python was used to inspect, clean, transform and analyze the e-commerce dataset.
+
+### Analysis Performed
+
+- Dataset Inspection
+- Dataset Summary
+- Missing Value Analysis
+- Duplicate Analysis
+- Data Type Analysis
+- Date Analysis
+- Data Cleaning
+- Monthly Orders Analysis
+- Monthly Revenue Analysis
+- Product Category Analysis
+- Top 10 Products by Revenue
+- Payment Method Distribution
+- Review Score Distribution
+- Delivery Performance
+- Freight Cost Distribution
+- Top Customer States
+- Monthly Average Order Value
+- Monthly Revenue vs Freight Analysis
+
+### 📊 Python Data Visualizations
+
+The following visualizations were generated during exploratory data analysis.
+
+### 1. Monthly Orders Trend
+
+![Monthly Orders Trend](Documentation/Charts/monthly_orders_trend.png)
+
+### 2. Monthly Revenue Trend
+
+![Monthly Revenue Trend](Documentation/Charts/monthly_revenue_trend.png)
+
+### 3. Top Product Categories
+
+![Top Product Categories](Documentation/Charts/top_product_categories.png)
+
+### 4. Payment Method Distribution
+
+![Payment Method Distribution](Documentation/Charts/payment_method_distribution.png)
+
+### 5. Customer Review Score Distribution
+
+![Review Score Distribution](Documentation/Charts/review_score_distribution.png)
+
+### 6. Delivery Performance
+
+![Delivery Performance](Documentation/Charts/delivery_performance.png)
+
+### 7. Freight Cost Distribution
+
+![Freight Cost Distribution](Documentation/Charts/freight_cost_distribution.png)
+
+### 8. Top Customer States
+
+![Top Customer States](Documentation/Charts/top_customer_states.png)
+
+### 9. Monthly Average Order Value
+
+![Monthly Average Order Value](Documentation/Charts/monthly_average_order_value.png)
+
+### 10. Monthly Revenue vs Freight Charges
+
+![Monthly Revenue vs Freight](Documentation/Charts/monthly_revenue_vs_freight.png)
+
+### 11. Top 10 Products by Revenue
+
+![Top 10 Products by Revenue](Documentation/Charts/top_10_products_revenue.png)
+
+### 12. Order Status Analysis
+
+![Order Status Analysis](Documentation/Charts/order_status_chart.png)
+
+---
+
+# 📊 7. Power BI – Interactive Dashboards
+
+Six interactive Power BI dashboard pages were developed using an Emerald Green and White theme.
+
+The dashboards include KPI cards, interactive charts, state and year filters, DAX measures and page navigation.
 
 ## 1. Overview Dashboard
 
-Provides a high-level summary of overall e-commerce business performance through revenue, orders, payment methods, product categories and customer reviews.
+Provides a high-level summary of overall e-commerce business performance, including revenue, orders, product categories, payment methods, customer reviews and delivery performance.
 
 ![Overview Dashboard](Images/Overview.png)
 
@@ -128,42 +207,23 @@ Evaluates order status, monthly order trends, delivery time ranges and on-time d
 
 ![Operations Dashboard](Images/operation.png)
 
----
+### Power BI Features
 
-## 🐍 Python Exploratory Data Analysis
-
-Python was used for data inspection, cleaning, preprocessing and exploratory analysis.
-
-### Analysis Performed
-
-- Dataset Inspection
-- Dataset Summary
-- Missing Value Analysis
-- Duplicate Analysis
-- Data Type Analysis
-- Date Analysis
-- Data Cleaning
-- Monthly Orders Analysis
-- Monthly Revenue Analysis
-- Product Category Analysis
-- Top 10 Products by Revenue
-- Payment Method Distribution
-- Review Score Distribution
-- Delivery Performance
-- Freight Cost Distribution
-- Top Customer States
-- Monthly Average Order Value
-- Monthly Revenue vs Freight Analysis
-
-### Python Visualizations
-
-The generated charts are available in:
-
-`Documentation/Charts/`
+- Six Interactive Dashboard Pages
+- KPI Cards
+- DAX Measures
+- Data Modeling and Relationships
+- State and Year Filters
+- Bar Charts
+- Line Charts
+- Donut Charts
+- Column Charts
+- Dashboard Navigation
+- Business Performance Analysis
 
 ---
 
-## 🗄️ MySQL and SQL Analysis
+# 🗄️ 8. MySQL and SQL Analysis
 
 MySQL was used to store and manage the e-commerce dataset.
 
@@ -180,59 +240,36 @@ SQL queries were developed to analyze:
 9. Customer Review Analysis
 10. Freight Cost Analysis
 
-SQL Script:
-
-`MySQL/Ecommerce_Analysis.sql`
+**SQL Script:** `MySQL/Ecommerce_Analysis.sql`
 
 ---
 
-## 📈 Power BI Features
+# 💡 9. Key Business Insights
 
-- Six Interactive Dashboard Pages
-- KPI Cards
-- DAX Measures
-- Data Modeling
-- Table Relationships
-- Interactive State Filters
-- Year Filters
-- Bar Charts
-- Line Charts
-- Donut Charts
-- Column Charts
-- Dashboard Navigation
-- Emerald Green and White Theme
-
-Power BI File:
-
-`PowerBI/E-commerce analytics.pbix`
-
----
-
-## 💡 Key Business Insights
+The analysis helped identify the following business insights:
 
 - Identified monthly revenue and order trends.
 - Analyzed top-performing product categories.
-- Identified popular customer payment methods.
-- Evaluated customer satisfaction through review scores.
-- Measured average delivery time and on-time delivery rate.
+- Evaluated customer payment preferences.
+- Examined customer satisfaction through review scores.
+- Measured delivery performance and delivery delays.
 - Identified high-performing sellers.
 - Analyzed customer and seller geographic distribution.
 - Examined freight costs in relation to product revenue.
 
 ---
 
-## 📁 Project Structure
+# 📁 10. Project Structure
 
 ```text
 Advanced_Ecommerce_Analytics/
 │
 ├── Dataset/
-│   ├── Cleaned/
-│   └── Raw/                 (Excluded from GitHub)
+│   ├── Raw/                  (Excluded from GitHub)
+│   └── Cleaned/
 │
 ├── Documentation/
 │   ├── Charts/
-│   ├── CSV Reports/
 │   └── Analysis Reports/
 │
 ├── Images/
@@ -257,7 +294,7 @@ Advanced_Ecommerce_Analytics/
 │   ├── 05_data_types_analysis.py
 │   ├── 06_date_analysis.py
 │   ├── 07_data_cleaning.py
-│   └── EDA Analysis Scripts
+│   └── Other EDA Scripts
 │
 ├── .gitignore
 └── README.md
@@ -265,7 +302,32 @@ Advanced_Ecommerce_Analytics/
 
 ---
 
-## 👩‍💻 Author
+# 🚀 11. How to Run the Project
+
+### Python
+
+1. Clone the repository.
+2. Install the required Python libraries.
+3. Place the Olist dataset files in the appropriate dataset folder.
+4. Run the Python EDA scripts.
+
+### MySQL
+
+1. Install MySQL.
+2. Create the `olist_ecommerce` database.
+3. Import the required dataset tables.
+4. Execute the SQL analysis script.
+
+### Power BI
+
+1. Open the `.pbix` file using Power BI Desktop.
+2. Configure the MySQL connection if required.
+3. Refresh the data.
+4. Explore the six interactive dashboard pages.
+
+---
+
+# 👩‍💻 12. Author
 
 **Yoganjana**
 
@@ -283,7 +345,7 @@ This project demonstrates practical skills in:
 - SQL Query Development
 - MySQL Database Management
 - Power BI Dashboard Development
-- Data Visualization
 - DAX Calculations
+- Data Visualization
 - Business Intelligence
 - Data-Driven Decision Making
